@@ -17,7 +17,7 @@ A Streamlit-based app using Retrieval-Augmented Generation (RAG) to create a loc
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/local-rag-chatbot.git
+   git clone https://github.com/himu0023/RAGChat
    cd local-rag-chatbot
 
 2. Create a virtual environment (optional but recommended):
