@@ -21,28 +21,28 @@ A Streamlit-based app using Retrieval-Augmented Generation (RAG) to create a loc
    cd local-rag-chatbot
 
 2. Create a virtual environment (optional but recommended):
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   - python -m venv venv
+   - source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. Install dependencies:
-   pip install streamlit langchain langchain-community langchain-huggingface transformers PyPDF2 faiss-cpu pytz sentence_transformers
+  - pip install streamlit langchain langchain-community langchain-huggingface transformers PyPDF2 faiss-cpu pytz sentence_transformers pypdf
 
 4. Run the app:
-   streamlit run start.py
+   - streamlit run start.py
 
 
-Usage:
+## Usage:
 
-Upload one or more PDFs via the sidebar.
-Type queries in the chat input; use simple phrases (e.g., "thank you") or document-related questions.
-Clear chat or download history as needed.
-
-
-Contributing
-Feel free to fork, improve, and submit pull requests!
+- Upload one or more PDFs via the sidebar.
+- Type queries in the chat input; use simple phrases (e.g., "thank you") or document-related questions.
+- Clear chat or download history as needed.
 
 
-Credits
+## Contributing
+- Feel free to fork, improve, and submit pull requests!
 
-Built with ❤️ by Himanshu Bisht
-Powered by Hugging Face and Streamlit
+
+## Credits
+
+- Built with ❤️ by Himanshu Bisht
+- Powered by Hugging Face and Streamlit
